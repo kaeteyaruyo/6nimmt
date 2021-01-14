@@ -4,3 +4,6 @@ main.o: main.c header.h
 	gcc -c main.c
 function.o: function.c header.h
 	gcc -c function.c
+clean: 
+	rm *.o 6nimmt
+
